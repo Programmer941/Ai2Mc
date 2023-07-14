@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Convert a 360° panorama to a cubemap.">
+  <title>Ai2Mc</title>
+  <link href="./styles.css" rel="stylesheet">
+</head>
+
+<body>
+
+
+<div class="file-input-container">
+    <input type="file" class="file-input" id="imageInput" accept="image/*">
+    <a class="download-button">Select File</a>
+  </div>
+
+  <div class="download-button-container">
+    <a id="download" href="#" class="download-button">Download</a>
+  </div>
+  
+  <canvas id="canvas" hidden></canvas>
+  <canvas id="output"></canvas>
+  <script src="main.js"></script>
+</body>
+</html>
